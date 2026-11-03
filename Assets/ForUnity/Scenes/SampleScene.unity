@@ -1042,6 +1042,7 @@ GameObject:
   - component: {fileID: 363869362}
   - component: {fileID: 363869365}
   - component: {fileID: 363869366}
+  - component: {fileID: 363869367}
   m_Layer: 5
   m_Name: ButtonPlaySound1
   m_TagString: Untagged
@@ -1198,6 +1199,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlaySound
   _audioSource: {fileID: 1924599328}
+--- !u!114 &363869367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363869360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7a66ce2d2853d40aa5b25b1bdb9421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonEventExample
 --- !u!1 &383556728
 GameObject:
   m_ObjectHideFlags: 0
@@ -1208,6 +1221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 383556729}
   - component: {fileID: 383556730}
+  - component: {fileID: 383556731}
   m_Layer: 5
   m_Name: 'SliderBackgrounSuondVolume '
   m_TagString: Untagged
@@ -1289,9 +1303,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1849521241}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PanelSettingAudio, Assembly-CSharp
-        m_MethodName: ChangeBackgroungVolume
+        m_MethodName: 
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1300,7 +1314,21 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
+--- !u!114 &383556731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383556728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b265d3b3a0204dc4caa571d83568c627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SliderChangeVolume
+  _mixer: {fileID: -17716711415188438, guid: 6dd4f2a1933095541b4d11f84192ca95, type: 2}
+  _mixerName: BackgroungVolume
 --- !u!1 &394703226
 GameObject:
   m_ObjectHideFlags: 0
@@ -1579,6 +1607,7 @@ GameObject:
   - component: {fileID: 437745790}
   - component: {fileID: 437745793}
   - component: {fileID: 437745794}
+  - component: {fileID: 437745795}
   m_Layer: 5
   m_Name: ButtonPlaySound2
   m_TagString: Untagged
@@ -1735,6 +1764,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlaySound
   _audioSource: {fileID: 58205403}
+--- !u!114 &437745795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437745788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7a66ce2d2853d40aa5b25b1bdb9421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonEventExample
 --- !u!1 &480456887
 GameObject:
   m_ObjectHideFlags: 0
@@ -1784,6 +1825,7 @@ GameObject:
   - component: {fileID: 503282534}
   - component: {fileID: 503282537}
   - component: {fileID: 503282538}
+  - component: {fileID: 503282539}
   m_Layer: 5
   m_Name: ButtonPlaySound3
   m_TagString: Untagged
@@ -1855,9 +1897,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 503282538}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PlaySound, Assembly-CSharp
-        m_MethodName: Play
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1866,7 +1908,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
 --- !u!114 &503282535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1940,6 +1982,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlaySound
   _audioSource: {fileID: 197152375}
+--- !u!114 &503282539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503282532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de7a66ce2d2853d40aa5b25b1bdb9421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonEventExample
 --- !u!1 &602116639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1950,6 +2004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 602116640}
   - component: {fileID: 602116641}
+  - component: {fileID: 602116642}
   m_Layer: 5
   m_Name: SliderButtonVolume
   m_TagString: Untagged
@@ -2031,9 +2086,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1849521241}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PanelSettingAudio, Assembly-CSharp
-        m_MethodName: ChangeButtonVolume
+        m_MethodName: 
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2042,7 +2097,21 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
+--- !u!114 &602116642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 602116639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b265d3b3a0204dc4caa571d83568c627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SliderChangeVolume
+  _mixer: {fileID: -6845879516197896876, guid: 6dd4f2a1933095541b4d11f84192ca95, type: 2}
+  _mixerName: ButtonVolume
 --- !u!1 &603239675
 GameObject:
   m_ObjectHideFlags: 0
@@ -2128,6 +2197,7 @@ GameObject:
   m_Component:
   - component: {fileID: 701490589}
   - component: {fileID: 701490590}
+  - component: {fileID: 701490591}
   m_Layer: 5
   m_Name: SliderMasterVolume
   m_TagString: Untagged
@@ -2209,9 +2279,9 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1849521241}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PanelSettingAudio, Assembly-CSharp
-        m_MethodName: ChangeMasterVolume
+        m_MethodName: 
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2220,7 +2290,21 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
+--- !u!114 &701490591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701490588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b265d3b3a0204dc4caa571d83568c627, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SliderChangeVolume
+  _mixer: {fileID: 24300002, guid: 6dd4f2a1933095541b4d11f84192ca95, type: 2}
+  _mixerName: MasterVolume
 --- !u!1 &744495057
 GameObject:
   m_ObjectHideFlags: 0
@@ -3088,8 +3172,9 @@ GameObject:
   - component: {fileID: 1406025735}
   - component: {fileID: 1406025737}
   - component: {fileID: 1406025736}
+  - component: {fileID: 1406025738}
   m_Layer: 5
-  m_Name: Toggle
+  m_Name: ToggleMuteAudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3184,9 +3269,9 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1849521241}
-        m_TargetAssemblyTypeName: PanelSettingAudio, Assembly-CSharp
-        m_MethodName: ToggleMusic
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: MasteMuteVolume, Assembly-CSharp
+        m_MethodName: 
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3195,8 +3280,20 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
   m_IsOn: 1
+--- !u!114 &1406025738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406025734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ffcf965baffde746a61a3055bbb1be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MasteMuteVolume
 --- !u!1 &1434706455
 GameObject:
   m_ObjectHideFlags: 0
@@ -3786,7 +3883,6 @@ GameObject:
   - component: {fileID: 1849521238}
   - component: {fileID: 1849521240}
   - component: {fileID: 1849521239}
-  - component: {fileID: 1849521241}
   m_Layer: 5
   m_Name: PanelSetingsAudio
   m_TagString: Untagged
@@ -3855,19 +3951,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849521237}
   m_CullTransparentMesh: 1
---- !u!114 &1849521241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1849521237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b114b7143e0a5324491cc9f3b2ec6b51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PanelSettingAudio
-  _mixer: {fileID: 24300002, guid: 6dd4f2a1933095541b4d11f84192ca95, type: 2}
 --- !u!1 &1924599326
 GameObject:
   m_ObjectHideFlags: 0
